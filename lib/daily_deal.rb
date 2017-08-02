@@ -1,5 +1,7 @@
-require "daily_deal/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module DailyDeal
-  # Your code goes here...
-end
+require_relative "./daily_deal/version"
+require_relative './daily_deal/deal'
+require_relative './daily_deal/cli'
